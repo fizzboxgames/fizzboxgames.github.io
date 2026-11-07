@@ -127,7 +127,7 @@
     .feature:nth-child(even) .shot { order: 0; }
     .gallery { grid-template-columns: repeat(2, 1fr); }
   }
-  @media (prefers-reduced-motion: reduce) { video { display: none; } }
+  @media (prefers-reduced-motion: reduce) { video, .clip img { display: none; } }
 </style>
 </head>
 <body>
@@ -156,8 +156,8 @@
         <span class="soon">Coming to Early Access on Steam. Release date to be announced.</span>
       </div>
       <figure class="clip">
-        <video src="clips/walk_in.mp4" autoplay muted loop playsinline></video>
-        <figcaption>Customers walk in off the neon-lit street.</figcaption>
+        <img src="clips/build_mode.gif" width="616" height="346" alt="Sliding a tiered standing rack into place in build mode">
+        <figcaption>Build mode: place shelves and racks wherever you like.</figcaption>
       </figure>
     </div>
   </div>
